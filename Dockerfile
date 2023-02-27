@@ -1,4 +1,4 @@
-FROM centos:8
+FROM centos:7
 RUN echo "this is" > /tmp/file1.txt
 
 RUN yum -y update
