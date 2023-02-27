@@ -3,5 +3,4 @@
    hosts: devops
    become: yes
    tasks:
-     - shell: docker run -itd --name testimg3 centos:7  /bin/bash
-
+     - shell: docker run -itd --name testimg3 anilgoud476/project1234:latest
