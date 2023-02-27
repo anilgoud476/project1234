@@ -1,0 +1,7 @@
+---
+ - name: test demo
+   hosts: demo
+   become: yes
+   tasks:
+     - shell: docker run -itd --name testimg2 centos:8  /bin/bash
+
