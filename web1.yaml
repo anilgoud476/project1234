@@ -1,7 +1,7 @@
 ---
  - name: test demo
-   hosts: demo
+   hosts: devops
    become: yes
    tasks:
-     - shell: docker run -itd --name testimg2 centos:8  /bin/bash
+     - shell: docker run -itd --name testimg3 centos:7  /bin/bash
 
